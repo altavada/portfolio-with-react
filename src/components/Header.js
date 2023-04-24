@@ -1,13 +1,6 @@
-import { useState } from "react";
+import "../styles/Header.css";
 
 function Header() {
-  const [hover, setHover] = useState(false);
-  const mouseOn = () => {
-    setHover(true);
-  };
-  const mouseOff = () => {
-    setHover(false);
-  };
   const styles = {
     header: {
       padding: "20px",
@@ -28,11 +21,6 @@ function Header() {
       float: "right",
       fontSize: "20px",
     },
-    navlink: {
-      textDecoration: hover ? "underline" : "none",
-      padding: "10px",
-      marginTop: "-10px",
-    },
   };
   return (
     <header style={styles.header}>
@@ -41,30 +29,9 @@ function Header() {
         <h2>Full Stack Web Development</h2>
       </div>
       <nav style={styles.nav}>
-        <a
-          href="#about"
-          style={styles.navlink}
-          onMouseEnter={mouseOn}
-          onMouseLeave={mouseOff}
-        >
-          About Me
-        </a>
-        <a
-          href="#mylinks"
-          style={styles.navlink}
-          onMouseEnter={mouseOn}
-          onMouseLeave={mouseOff}
-        >
-          Deployed Projects
-        </a>
-        <a
-          href="#contacts"
-          style={styles.navlink}
-          onMouseEnter={mouseOn}
-          onMouseLeave={mouseOff}
-        >
-          Contact Me
-        </a>
+        <a href="#about">About Me</a>
+        <a href="#mylinks">Deployed Projects</a>
+        <a href="#contacts">Contact Me</a>
       </nav>
     </header>
   );
