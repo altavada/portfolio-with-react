@@ -1,6 +1,7 @@
 const styles = {
   footer: {
-    position: "static",
+    position: "absolute",
+    bottom: "0",
     textAlign: "left",
     marginTop: "50px",
     fontSize: "10px",
@@ -19,7 +20,7 @@ const styles = {
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <h2 style={styles.content}>Created by Samuel Tomaka, 2022</h2>
+      <h2 style={styles.content}>Created by Samuel Tomaka, 2023</h2>
     </footer>
   );
 }
