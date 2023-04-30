@@ -37,7 +37,7 @@
 }
 
 .bio p {
-    line-height: 1.25;
+    line-height: 1.5;
 }
 
 .bodyheader {
@@ -50,6 +50,10 @@
     flex-wrap: wrap;
     padding-top: 20px;
     justify-content: center;
+}
+
+.boxes a {
+    text-decoration: none;
 }
 
 .boxitem {
@@ -118,6 +122,10 @@
     background-color: white;
 }
 
+#resumeicon:active {
+    background-color: var(--mutegreen);
+}
+
 .contacts a {
     color: white;
     background-color: rgba(58, 58, 58, 0.5);
@@ -135,7 +143,7 @@
 }
 
 .contacts a:active {
-    background-color: gray;
+    background-color: var(--mutegreen);
 }
 
 .resume a {

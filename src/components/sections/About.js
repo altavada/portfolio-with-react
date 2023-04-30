@@ -6,24 +6,30 @@ export default function About() {
       <section className="firstsection" id="about">
         <div className="bio">
           <img
-            src='/images/me.png'
+            src="/images/me.png"
             alt="Sam Tomaka professional headshot."
           ></img>
           <div>
             <h2>About Me</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-              sapiente architecto quisquam in, rem exercitationem fuga, fugiat
-              error tenetur numquam ducimus quaerat. Fugiat atque iure id quasi
-              consectetur ipsum labore quidem, aliquid, quam nulla magni
-              voluptate voluptates placeat dolor nisi, assumenda adipisci
-              obcaecati consequuntur ad cupiditate odio. Provident est corrupti
-              dignissimos eveniet vero? Quisquam, in porro numquam inventore at
-              dolore quo? Nisi sit, porro eveniet aperiam asperiores consequatur
-              dolores fuga amet quod iure consequuntur atque. Ea saepe sunt enim
-              perspiciatis ex reprehenderit voluptas blanditiis dolorum ipsum
-              distinctio architecto, velit praesentium, deleniti at tenetur
-              delectus similique vel sed sequi illo cumque.
+              As a young web developer, I seek to jumpstart my career and cement
+              my place in the industry. I will thrive best with a junior
+              development role in which I can meaningfully contribute to the
+              team while continuing to increase my experience, knowledge, and
+              breadth of expertise as a developer. Both my academic and
+              employment backgrounds have provided me with excellent, extensive
+              preparation for the analytic-minded, detail-oriented, and
+              team-based approaches asked of by challenges in the development
+              world. Moreover, I am very passionate about this work because it
+              is highly suitable to my strengths. I initially sought to pursue
+              an academic career in Philosophy and Law, and only diverged from
+              that path due to a burning desire for a more "hands-on" and
+              creative type of work. Programming offers a similar type of
+              high-concept intellectual engagement as this scholarly work, while
+              also offering dynamic, engaging, direct interfacing that is more
+              akin to tradecraft and fine arts. Having now graduated from UNC
+              Chapel Hill's Coding Bootcamp, I am more assured than ever that
+              this is the right path for me.
             </p>
           </div>
         </div>
