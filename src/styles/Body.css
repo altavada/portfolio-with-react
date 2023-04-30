@@ -26,19 +26,18 @@
     max-width: 65%;
     max-height: 300px;
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
     border-radius: inherit;
 }
 
 .bio h2 {
-    text-decoration: underline;
     padding-bottom: 10px;
+    font-size: 32px;
 }
 
 .bodyheader {
     text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .boxes {
@@ -95,4 +94,31 @@
 
 #feature:active {
     margin-bottom: 16px;
+}
+
+#contacts img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#contacts a {
+    color: white;
+    background-color: rgba(58, 58, 58, 0.5);
+    text-decoration: none;
+    font-size: x-large;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#contacts a:hover {
+    border: 3px solid var(--mutegreen);
+    margin: 4px;
+}
+
+#contacts a:active {
+    background-color: gray;
 }
