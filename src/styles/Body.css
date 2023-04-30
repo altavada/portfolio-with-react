@@ -1,9 +1,11 @@
 :root {
+    --mutegreen: rgb(88, 122, 88);
     --forest: rgb(0, 64, 14);
 }
 
 .main {
     padding-top: 175px;
+    padding-bottom: 75px;
 }
 
 .firstsection {
@@ -31,4 +33,66 @@
 .bio h2 {
     text-decoration: underline;
     padding-bottom: 10px;
+}
+
+.bodyheader {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.boxitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    max-width: 300px;
+    min-width: 300px;
+    border: 1px dotted white;
+    border-radius: 160px;
+    margin: 10px;
+    height: 300px;
+    background-size: cover;
+}
+
+.boxitem p, h3 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.boxitem:hover {
+    border: 3px solid white;
+    margin: 8px;
+}
+
+.boxitem:active {
+    border: 5px solid var(--mutegreen);
+    margin: 6px;
+}
+
+#feature {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-image: url("./feature-img/sample.png");
+    background-size: cover;
+}
+
+#feature:hover {
+    margin-bottom: 18px;
+}
+
+#feature:active {
+    margin-bottom: 16px;
 }

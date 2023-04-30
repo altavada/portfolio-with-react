@@ -8,3 +8,7 @@
 .navbtn:hover {
     text-decoration: underline;
 }
+
+.navbtn:active {
+    color: rgb(88, 122, 88);
+}

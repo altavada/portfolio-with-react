@@ -6,7 +6,7 @@ function Header() {
   const styles = {
     header: {
       padding: "20px",
-      background: "rgb(58, 58, 58)",
+      background: "rgba(58, 58, 58, 0.5)",
       position: "fixed",
       width: "100%",
     },

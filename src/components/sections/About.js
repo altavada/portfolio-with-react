@@ -1,5 +1,4 @@
 import "../../styles/Body.css";
-import me from '../../images/me.png'
 
 export default function About() {
   return (
@@ -7,7 +6,7 @@ export default function About() {
       <section className="firstsection" id="about">
         <div className="bio">
           <img
-            src={me}
+            src='/images/me.png'
             alt="Sam Tomaka professional headshot."
           ></img>
           <div>

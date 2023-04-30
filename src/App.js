@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "./components/Content";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import "./styles/style.css";
@@ -7,7 +7,7 @@ import "./styles/style.css";
 function App() {
   return (
     <div>
-      <Content />
+      <Header />
       <Footer />
     </div>
   );

@@ -18,7 +18,6 @@ function Section({ onTab }) {
     default:
       whichContent = <About />;
   }
-  console.log(whichContent);
   return whichContent;
 }
 

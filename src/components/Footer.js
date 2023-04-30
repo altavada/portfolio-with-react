@@ -1,13 +1,14 @@
 const styles = {
   footer: {
-    position: "absolute",
+    position: "fixed",
     bottom: "0",
     textAlign: "left",
     marginTop: "50px",
+    marginBottom: "0px",
     fontSize: "10px",
     paddingBottom: "35px",
     padding: "20px",
-    background: "rgb(58, 58, 58)",
+    background: "rgba(58, 58, 58, 0.5)",
     width: "100%",
   },
   content: {
