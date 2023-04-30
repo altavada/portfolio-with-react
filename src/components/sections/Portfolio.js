@@ -6,7 +6,11 @@ export default function Portfolio() {
     <div className="main">
       <h2 className="bodyheader">Portfolio</h2>
       <div className="boxes">
-        <a href="https://altavada.github.io/samt-refactor-project/">
+        <a
+          href="https://altavada.github.io/samt-refactor-project/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="boxitem" id="feature">
             <h3>Horiseon Homepage</h3>
             <p>
@@ -19,7 +23,7 @@ export default function Portfolio() {
         </a>
         {projects.map((proj) => {
           return (
-            <a href={proj.address}>
+            <a href={proj.address} target="_blank" rel="noreferrer">
               <div
                 className="boxitem"
                 style={{ backgroundImage: `url(${proj.image})` }}

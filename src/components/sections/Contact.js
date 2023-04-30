@@ -11,9 +11,17 @@ export default function Contact() {
         alt="Phone Icon"
       ></img>
       <div className="boxes">
-        <a href="mailto:sam.tomaka@gmail.com">Email</a>
-        <a href="https://github.com/altavada">GitHub</a>
-        <a href="https://www.linkedin.com/in/samuel-tomaka-81b08921a/">
+        <a href="mailto:sam.tomaka@gmail.com" target="_blank" rel="noreferrer">
+          Email
+        </a>
+        <a href="https://github.com/altavada" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/samuel-tomaka-81b08921a/"
+          target="_blank"
+          rel="noreferrer"
+        >
           LinkedIn
         </a>
       </div>

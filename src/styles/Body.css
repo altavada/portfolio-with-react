@@ -130,7 +130,7 @@
 }
 
 .contacts a:hover {
-    border: 3px solid var(--mutegreen);
+    border: 3px solid white;
     margin: 4px;
 }
 
@@ -140,6 +140,7 @@
 
 .resume a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .resume p {
