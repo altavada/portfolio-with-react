@@ -1,0 +1,34 @@
+:root {
+    --forest: rgb(0, 64, 14);
+}
+
+.main {
+    padding-top: 175px;
+}
+
+.firstsection {
+    display: flex;
+}
+
+.bio {
+    margin: auto;
+    background-color: var(--forest);
+    width: 85%;
+    min-height: 300px;
+    border: 20px solid var(--forest);
+    border-radius: 40px;
+}
+
+.bio img {
+    display: flex;
+    max-width: 65%;
+    max-height: 300px;
+    float: left;
+    margin-right: 10px;
+    border-radius: inherit;
+}
+
+.bio h2 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}

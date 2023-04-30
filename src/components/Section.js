@@ -1,23 +1,22 @@
-const styles = {
-  main: {
-    paddingTop: "150px",
-  },
-};
+import About from './sections/About';
+import Portfolio from './sections/Portfolio';
+import Contact from './sections/Contact';
+import Resume from './sections/Resume';
 
 function Section({ onTab }) {
   let whichContent;
   switch (onTab) {
     case "portfolio":
-      whichContent = <p>Portfolio</p>;
+      whichContent = <Portfolio />;
       break;
     case "contact":
-      whichContent = <p>Contact</p>;
+      whichContent = <Contact />;
       break;
     case "resume":
-      whichContent = <p>Resume</p>;
+      whichContent = <Resume />;
       break;
     default:
-      whichContent = <p>About</p>;
+      whichContent = <About />;
   }
   console.log(whichContent);
   return whichContent;

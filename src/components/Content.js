@@ -36,7 +36,7 @@ function Header() {
           <h2>Full Stack Web Development</h2>
         </div>
         <nav style={styles.nav}>
-          <span className="navbtn" data-type="about" onClick={handleClick}>About Me</span>
+          <span className="navbtn" data-type="about" onClick={handleClick}>About</span>
           <span className="navbtn" data-type="portfolio" onClick={handleClick}>Portfolio</span>
           <span className="navbtn" data-type="contact" onClick={handleClick}>Contact</span>
           <span className="navbtn" data-type="resume" onClick={handleClick}>Resume</span>
