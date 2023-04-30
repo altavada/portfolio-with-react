@@ -1,16 +1,15 @@
 import React from "react";
-import Header from "./components/Header";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
-import Section from "./components/Section";
+
 import "./styles/style.css";
 
 function App() {
   return (
-    <body>
-      <Header />
-      <Section />
+    <div>
+      <Content />
       <Footer />
-    </body>
+    </div>
   );
 }
 
