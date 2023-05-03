@@ -29,9 +29,10 @@ nav {
 }
 
 .navbtn:hover {
-    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.499);
+    border-radius: 10px;
 }
 
 .navbtn:active {
-    color: rgb(88, 122, 88);
+    color: rgb(159, 189, 159);
 }

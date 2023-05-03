@@ -10,7 +10,6 @@ function Header() {
     document.getElementById("portfolio").style = "none";
     document.getElementById("contact").style = "none";
     document.getElementById("resume").style = "none";
-    event.target.style.textDecoration = "underline";
     event.target.style.color = "rgb(88, 122, 88)";
   };
   return (
@@ -25,7 +24,7 @@ function Header() {
             className="navbtn"
             id="about"
             onClick={handleClick}
-            style={{ textDecoration: "underline", color: 'rgb(88, 122, 88)' }}
+            style={{ color: 'rgb(88, 122, 88)' }}
           >
             About
           </span>
