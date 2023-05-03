@@ -1,5 +1,5 @@
 import "../styles/Header.css";
-import Section from "./Section";
+import Navigation from "./Navigation";
 import { useState } from "react";
 
 function Header() {
@@ -39,7 +39,7 @@ function Header() {
           </span>
         </nav>
       </header>
-      <Section onTab={navTab} />
+      <Navigation onTab={navTab} />
     </div>
   );
 }

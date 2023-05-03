@@ -18,7 +18,6 @@ export default function Resume() {
         ></img>
         <p>Click icon for PDF resume</p>
       </a>
-      <br></br>
       <div className="summary">
         <div>
           I am happy to offer a broad range of full-stack development skills,

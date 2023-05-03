@@ -1,5 +1,6 @@
 import "../../styles/Body.css";
 import { projects } from "../../utils/projectData";
+import Project from "./Project";
 
 export default function Portfolio() {
   return (
@@ -23,15 +24,12 @@ export default function Portfolio() {
         </a>
         {projects.map((proj) => {
           return (
-            <a href={proj.address} target="_blank" rel="noreferrer">
-              <div
-                className="boxitem"
-                style={{ backgroundImage: `url(${proj.image})` }}
-              >
-                <h3>{proj.title}</h3>
-                <p>{proj.desc}</p>
-              </div>
-            </a>
+            <Project
+              address={proj.address}
+              image={proj.image}
+              title={proj.title}
+              desc={proj.desc}
+            />
           );
         })}
       </div>
