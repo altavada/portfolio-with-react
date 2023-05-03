@@ -22,13 +22,14 @@ export default function Portfolio() {
             </p>
           </div>
         </a>
-        {projects.map((proj) => {
+        {projects.map((proj, i) => {
           return (
             <Project
               address={proj.address}
               image={proj.image}
               title={proj.title}
               desc={proj.desc}
+              key={i}
             />
           );
         })}

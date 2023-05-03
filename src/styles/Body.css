@@ -116,7 +116,6 @@
     position: relative;
     filter: invert(1);
     background-color: grey;
-    /* z-index: -1; */
 }
 
 #resumeicon:hover {
