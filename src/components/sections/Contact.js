@@ -3,6 +3,7 @@ import "../../styles/Body.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import phoneIcon from "../../images/grey-phone-icon.jpeg";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -42,7 +43,7 @@ export default function Contact() {
       <br></br>
       <img
         className="icon"
-        src="/images/grey-phone-icon.jpeg"
+        src={phoneIcon}
         alt="Phone Icon"
       ></img>
       <div className="boxes">

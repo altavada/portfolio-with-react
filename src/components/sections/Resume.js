@@ -1,4 +1,5 @@
 import "../../styles/Body.css";
+import resumeIcon from "../../images/resume-icon.png";
 
 export default function Resume() {
   return (
@@ -13,7 +14,7 @@ export default function Resume() {
         <img
           id="resumeicon"
           className="icon"
-          src="/images/resume-icon.png"
+          src={resumeIcon}
           alt="Resume icon"
         ></img>
         <p>Click icon for PDF resume</p>
@@ -22,10 +23,10 @@ export default function Resume() {
         <div>
           I am happy to offer a broad range of full-stack development skills,
           ranging from UI/UX design to database configuration and server-side
-          API engineering. In addition to the necessary foundations of web development,
-          my programming experience includes technologies such as React, Node.js,
-          MySQL and Sequelize, Mongoose and MongoDB, Express.js, JQuery, and CSS
-          frameworks such as Bootstrap.
+          API engineering. In addition to the necessary foundations of web
+          development, my programming experience includes technologies such as
+          React, Node.js, MySQL and Sequelize, Mongoose and MongoDB, Express.js,
+          JQuery, and CSS frameworks such as Bootstrap.
         </div>
       </div>
     </div>
