@@ -90,6 +90,7 @@
 
 #feature {
     max-width: 80%;
+    min-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;

@@ -8,17 +8,14 @@ export default function Portfolio() {
       <h2 className="bodyheader">Portfolio</h2>
       <div className="boxes">
         <a
-          href="https://altavada.github.io/samt-refactor-project/"
+          href="https://murmuring-waters-06827.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="boxitem" id="feature">
-            <h3>Horiseon Homepage</h3>
+            <h3>Paws & Claws</h3>
             <p>
-              An exercise in efficient CSS refactoring and utilization of
-              semantic HTML elements for practical organization and styling
-              purposes. Assignment for UNC Chapel Hill Coding Bootcamp, week 1.
-              Modified iteration of preexisting starter code.
+              A collaborative full-stack website built with React, GraphQL, and MongoDB. This mobile-friendly app provides the online presence for an animal rescue and adoption agency. Visitors can come here to learn about the agency, browse adoptable pets, and submit applications, while authorized staff members can access a password-protected admin dashboard which allows them to create, update, and remove pet listings.
             </p>
           </div>
         </a>
