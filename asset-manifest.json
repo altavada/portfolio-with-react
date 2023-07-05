@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-with-react/static/css/main.7494e978.css",
-    "main.js": "/portfolio-with-react/static/js/main.ffb3c595.js",
-    "static/media/sample.png": "/portfolio-with-react/static/media/sample.32cde63e657f4339643f.png",
+    "main.css": "/portfolio-with-react/static/css/main.c8b680b0.css",
+    "main.js": "/portfolio-with-react/static/js/main.5966e23b.js",
+    "static/media/sample.png": "/portfolio-with-react/static/media/sample.9afa5a1dc5653a4c4076.png",
     "static/media/me.png": "/portfolio-with-react/static/media/me.15bc471d2b65d0be3d65.png",
     "static/media/grey-phone-icon.jpeg": "/portfolio-with-react/static/media/grey-phone-icon.989111143b0d714c0ace.jpeg",
     "index.html": "/portfolio-with-react/index.html",
-    "main.7494e978.css.map": "/portfolio-with-react/static/css/main.7494e978.css.map",
-    "main.ffb3c595.js.map": "/portfolio-with-react/static/js/main.ffb3c595.js.map"
+    "main.c8b680b0.css.map": "/portfolio-with-react/static/css/main.c8b680b0.css.map",
+    "main.5966e23b.js.map": "/portfolio-with-react/static/js/main.5966e23b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7494e978.css",
-    "static/js/main.ffb3c595.js"
+    "static/css/main.c8b680b0.css",
+    "static/js/main.5966e23b.js"
   ]
 }
