@@ -7,7 +7,7 @@ export default function Resume() {
       <h2 className="bodyheader">Resume</h2>
       <br></br>
       <a
-        href="https://drive.google.com/file/d/16_-Cwff4uTGdzB07K-Rc8Z1ylFi17zeg/view?usp=sharing"
+        href="https://drive.google.com/file/d/1tkz3Ml1hdfzL0dG7Db_nLO7SPy7KM84P/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
@@ -24,7 +24,7 @@ export default function Resume() {
           I am happy to offer a broad range of full-stack development skills,
           ranging from UI/UX design to database configuration and server-side
           API engineering. In addition to the necessary foundations of web
-          development, my programming experience includes technologies such as
+          development, my project-tested programming experience spans technologies such as
           React, Node.js, MySQL and Sequelize, Mongoose and MongoDB, Express.js,
           JQuery, and CSS frameworks such as Bootstrap.
         </div>
