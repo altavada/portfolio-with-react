@@ -15,7 +15,13 @@ export default function Portfolio() {
           <div className="boxitem" id="feature">
             <h3>Paws & Claws</h3>
             <p>
-              A collaborative full-stack website built with React, GraphQL, and MongoDB. This mobile-friendly app provides the online presence for an animal rescue and adoption agency. Visitors can come here to learn about the agency, browse adoptable pets, and submit applications, while authorized staff members can access a password-protected admin dashboard which allows them to create, update, and remove pet listings.
+              A collaborative full-stack site built with React, GraphQL, and
+              MongoDB. This mobile-friendly app provides the online presence for
+              a pet rescue nonprofit. Here, visitors can browse adoptable pets,
+              submit applications, or make donations through a Stripe-powered
+              donation page. Authorized staff members can access a
+              password-protected admin dashboard which allows them to create,
+              update, and remove pet listings.
             </p>
           </div>
         </a>

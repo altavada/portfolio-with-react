@@ -2,19 +2,19 @@ export const projects = [
   {
     address: "https://altavada.github.io/weather-tracks/",
     title: "WeatherTrax",
-    desc: "A simple yet elegant forecast app allowing users to query weather data all across the world from Open Weather Map's free API and view that data in a custom-built, visually-descriptive, mobile-friendly format.",
+    desc: "A simple yet elegant forecast app allowing users to query weather data all across the world from Open Weather Map's free API and view that data in a custom-built, visually-descriptive, mobile-friendly format utilizing Bootstrap styles and jQuery DOM manipulation.",
     image: "/images/weathertrax.png",
   },
   {
     address: "https://fierce-refuge-87554.herokuapp.com/",
     title: "(-)board",
-    desc: "A full-stack MVC application presenting a simple, functional internet blog / messageboard, using a MySQL database, Express.js, and Handlebars.js.",
+    desc: "A full-stack MVC application presenting a simple, functional internet blog / messageboard, using a MySQL database, the Sequelize ORM, Express.js, and Handlebars.js.",
     image: "/images/dashboard.png",
   },
   {
     address: "https://altavada.github.io/musiquest/",
     title: "Muziquest",
-    desc: "A collaborative application for users to explore the world of music. Use of the free APIs provided by TheAudioDB and YouTube empowers users to search music artists and view their discographies plus a top video result.",
+    desc: "A collaborative application for users to explore the world of music. Use of the free APIs provided by TheAudioDB and YouTube empowers users to search music artists and view their discographies plus a top video result on a jQuery-powered webpage.",
     image: "/images/muziquest.png",
   },
   {
