@@ -29,6 +29,7 @@ export default function Portfolio() {
           return (
             <Project
               address={proj.address}
+              github={proj.github}
               image={proj.image}
               title={proj.title}
               desc={proj.desc}
