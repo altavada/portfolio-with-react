@@ -7,7 +7,7 @@ export default function Resume() {
       <h2 className="bodyheader">Resume</h2>
       <br></br>
       <a
-        href="https://drive.google.com/file/d/1tkz3Ml1hdfzL0dG7Db_nLO7SPy7KM84P/view?usp=sharing"
+        href="https://drive.google.com/file/d/1YFfSxOEViGfFiSn0XS5Cnxogqy7D4_pb/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
