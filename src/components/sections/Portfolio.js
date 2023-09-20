@@ -1,4 +1,3 @@
-import "../../styles/Body.css";
 import { projects } from "../../utils/projectData";
 import Project from "./Project";
 

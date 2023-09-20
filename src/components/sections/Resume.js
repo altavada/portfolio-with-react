@@ -1,4 +1,3 @@
-import "../../styles/Body.css";
 import resumeIcon from "../../images/resume-icon.png";
 
 export default function Resume() {
@@ -7,7 +6,7 @@ export default function Resume() {
       <h2 className="bodyheader">Resume</h2>
       <br></br>
       <a
-        href="https://drive.google.com/file/d/1YFfSxOEViGfFiSn0XS5Cnxogqy7D4_pb/view?usp=sharing"
+        href="https://docs.google.com/document/d/1n2IpbyEouROf0NoYg0MSERl041h7amgtoqIoVYQ-3JQ/edit?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
@@ -17,7 +16,7 @@ export default function Resume() {
           src={resumeIcon}
           alt="Resume icon"
         ></img>
-        <p>Click icon for PDF resume</p>
+        <p>Click icon to view the doc!</p>
       </a>
       <div className="summary">
         <div>
