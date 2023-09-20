@@ -1,7 +1,7 @@
 :root {
     --mutegreen: rgb(88, 122, 88);
     --fadedgreen: rgb(128, 150, 128);
-    --forest: rgb(0, 64, 14);
+    --forest: rgba(0, 64, 14, 0.554);
     --graybg: rgb(58, 58, 58);
 }
 
@@ -19,17 +19,16 @@
     background-color: var(--forest);
     width: 85%;
     min-height: 300px;
-    border: 20px solid var(--forest);
-    border-radius: 40px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .bio img {
-    display: flex;
     max-width: 65%;
-    max-height: 300px;
+    max-height: 280px;
     float: left;
     margin-right: 15px;
-    border-radius: inherit;
+    border-radius: 50%;
 }
 
 .bio h2 {
@@ -276,5 +275,15 @@
 @media screen and (max-width: 772px) {
     .main {
         padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 518px) {
+    .bio img {
+        margin-bottom: 20px;
+        float: none;
+    }
+    .bio {
+        text-align: center;
     }
 }

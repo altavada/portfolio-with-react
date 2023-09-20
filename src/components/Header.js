@@ -16,15 +16,15 @@ function Header() {
     <div>
       <header>
         <div className="headline">
-          <h1>Samuel Tomaka</h1>
-          <h2>Full Stack Web Development</h2>
+            <h1>Samuel Tomaka</h1>
+          <h2 className="subtitle">Full Stack Development Portfolio</h2>
         </div>
         <nav>
           <span
             className="navbtn"
             id="about"
             onClick={handleClick}
-            style={{ color: 'rgb(88, 122, 88)' }}
+            style={{ color: "rgb(88, 122, 88)" }}
           >
             About
           </span>

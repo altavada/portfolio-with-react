@@ -1,5 +1,4 @@
 header {
-    padding: 20px;
     background-color: rgba(58, 58, 58, 0.5);
     position: fixed;
     width: 100%;
@@ -8,15 +7,32 @@ header {
 
 .headline {
     display: inline-block;
+    height: 6rem;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 90px;
+    border-bottom-right-radius: 6rem;
+    background-color: black;
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 2.6rem;
+    background: linear-gradient(to right,#7b0bcb, #c79c10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.subtitle {
+    text-align: right;
 }
 
 nav {
     display: flex;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-right: 50px;
     float: right;
     font-size: 20px;
@@ -42,5 +58,34 @@ nav {
     nav {
         flex-direction: column;
         float: none;
+        padding-top: 10px;
+    }
+    .navbtn {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    .headline {
+        height: 5rem;
+        padding-top: 11px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    h1 {
+        font-size: 2.1rem;
     }
 }
