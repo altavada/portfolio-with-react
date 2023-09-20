@@ -84,8 +84,8 @@ export default function Contact() {
             onBlur={handleBlur}
             required
           />
-          {emailError && <p>{emailError}</p>}
         </label>
+        {emailError && <p>{emailError}</p>}
         <label>
           <textarea
             name="message"
