@@ -1,8 +1,74 @@
 :root {
-    --mutegreen: rgb(88, 122, 88);
-    --fadedgreen: rgb(128, 150, 128);
+    --mutegreen: rgb(113, 89, 166);
+    --fadedgreen: rgb(139, 128, 150);
     --forest: rgba(0, 64, 14, 0.554);
     --graybg: rgb(58, 58, 58);
+}
+
+header {
+    background-color: rgba(58, 58, 58, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.headline {
+    display: inline-block;
+    height: 6rem;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 90px;
+    border-bottom-right-radius: 6rem;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+
+h1 {
+    font-size: 2.6rem;
+    background: linear-gradient(to right,#850bdc, #dcab0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.subtitle {
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    padding-top: 40px;
+    padding-right: 50px;
+    float: right;
+    font-size: 20px;
+}
+
+.navbtn {
+    padding: 10px;
+    margin-top: -10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.navbtn:hover {
+    /* background-color: rgba(128, 128, 128, 0.499); */
+    border-radius: 10px;
+    color: var(--fadedgreen);
+}
+
+.navbtn:active {
+    color: var(--fadedgreen);
+}
+
+.nav-selected {
+    color: var(--mutegreen);
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .main {
@@ -12,6 +78,7 @@
 
 .firstsection {
     display: flex;
+    margin-top: 20px;
 }
 
 .bio {
@@ -78,6 +145,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 3px;
     border-radius: 5px;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .boxitem:hover {
@@ -230,6 +298,7 @@
 
 .resume {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .resume a {
@@ -254,6 +323,7 @@
 
 .subhead {
     text-align: center;
+    background-color: transparent;
 }
 
 .contact-form {
@@ -272,9 +342,17 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 817px) {
+    nav {
+        flex-direction: column;
+        float: none;
+        padding-top: 10px;
+    }
+    .navbtn {
+        font-size: 1rem;
+    }
     .main {
-        padding-top: 300px;
+        padding-top: 210px;
     }
 }
 
@@ -285,5 +363,30 @@
     }
     .bio {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    .headline {
+        height: 5rem;
+        padding-top: 11px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    h1 {
+        font-size: 2.1rem;
     }
 }

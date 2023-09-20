@@ -1,5 +1,3 @@
-import "../../styles/Body.css";
-
 export default function Project(props) {
   const imageUrl = `${process.env.PUBLIC_URL}/${props.image}`;
 
