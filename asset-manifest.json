@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-with-react/static/css/main.583bf819.css",
-    "main.js": "/portfolio-with-react/static/js/main.87de1e38.js",
+    "main.css": "/portfolio-with-react/static/css/main.d9556ff9.css",
+    "main.js": "/portfolio-with-react/static/js/main.b3689c7c.js",
     "static/media/sample.png": "/portfolio-with-react/static/media/sample.9afa5a1dc5653a4c4076.png",
     "static/media/me.png": "/portfolio-with-react/static/media/me.15bc471d2b65d0be3d65.png",
     "static/media/grey-phone-icon.jpeg": "/portfolio-with-react/static/media/grey-phone-icon.989111143b0d714c0ace.jpeg",
     "index.html": "/portfolio-with-react/index.html",
-    "main.583bf819.css.map": "/portfolio-with-react/static/css/main.583bf819.css.map",
-    "main.87de1e38.js.map": "/portfolio-with-react/static/js/main.87de1e38.js.map"
+    "main.d9556ff9.css.map": "/portfolio-with-react/static/css/main.d9556ff9.css.map",
+    "main.b3689c7c.js.map": "/portfolio-with-react/static/js/main.b3689c7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.583bf819.css",
-    "static/js/main.87de1e38.js"
+    "static/css/main.d9556ff9.css",
+    "static/js/main.b3689c7c.js"
   ]
 }
