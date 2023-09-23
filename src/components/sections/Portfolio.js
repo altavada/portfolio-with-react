@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div className="main">
       <h2 className="bodyheader">Portfolio</h2>
       <div className="boxes">
-        <div class="boxitem" id="feature">
+        <div className="boxitem" id="feature">
           <h3>Paws & Claws</h3>
           <p>
             A collaborative full-stack site built with React, GraphQL, and
